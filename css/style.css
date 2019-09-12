@@ -1,0 +1,50 @@
+body{
+	font-family: 'Patua One', cursive;
+	background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main{
+
+}
+input:focus{
+	box-sizing: border-box;
+	border: 3px solid rgba(23,162,184,1.00);
+	background-color: lightgray;
+}
+.del-act{
+	background-color: red;
+	text-align: center;
+	margin-right: 20px;
+	height: 40px;
+	width: 0;
+	display: inline-block;
+	opacity: 0;
+	transition: 0.3s linear;
+	color: white
+}
+li:hover .del-act {
+	width: 40px;
+	opacity: 1;
+}
+li:nth-child(2n){
+	background-color: lightgray;
+}
+.chk{
+	text-decoration: line-through;
+}
+.unchk{
+	text-decoration: none;
+}
+.fa-plus{
+	font-size: 25px;
+}
+.col-slc{
+	height: 30px; 
+}
+h1{
+	background-color: #34a1e0;
+}
+
+
